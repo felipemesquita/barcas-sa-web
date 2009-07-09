@@ -1,0 +1,12 @@
+log/*.log
+tmp/**/*
+.DS_Store
+doc/api
+doc/app
+config/database.yml
+db/*.sqlite3
+nbproject/*
+public/javascripts/javascripts*.js
+public/stylesheets/stylesheets*.css
+public/images/Thumbs.db
+public/images/calendar_date_select/Thumbs.db
