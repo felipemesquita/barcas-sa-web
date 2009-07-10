@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090710130211) do
+ActiveRecord::Schema.define(:version => 20090710143856) do
 
   create_table "boardings", :force => true do |t|
     t.integer  "day_id"
@@ -28,6 +28,8 @@ ActiveRecord::Schema.define(:version => 20090710130211) do
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "itinerary_id"
+    t.string   "url"
   end
 
   create_table "itineraries", :force => true do |t|

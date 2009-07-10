@@ -1,5 +1,5 @@
 # == Schema Information
-# Schema version: 20090710130211
+# Schema version: 20090710143856
 #
 # Table name: itineraries
 #
